@@ -50,9 +50,9 @@ PROCESS_THREAD(blink_process, ev, data)
       leds_on(LEDS_GREEN);
     }
     count++;
+    broadcast_an_integer(&broadcast, count);
     if (count >= 13)
       count = 1;
-    broadcast_an_integer(&broadcast, count);
   }
 
   PROCESS_END();
