@@ -1,5 +1,5 @@
 # This is an example simple traffic light based on blink led and rime broadcast on Contiki-OS
-# Requirement
+# Requirement:
 - ContikiOS 2.6 Instant
 - 2 Telosb (mote Sky)
 # How to use
