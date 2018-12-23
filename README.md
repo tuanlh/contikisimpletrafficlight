@@ -17,7 +17,6 @@ Tips: to view list mote, you can type:
 ```make motelist```
 
 ### Step 3. Create a folder simpletrafficlight in ~/contiki/examples and put all code within
-
 ### Step 4. On Telosb 1 (master) upload master.c
 ```
 $ make TARGET=sky master.upload
@@ -26,5 +25,4 @@ $ make TARGET=sky master.upload
 ```
 $ make TARGET=sky slave.upload
 ```
-
 # Author: Le Hoang Tuan
