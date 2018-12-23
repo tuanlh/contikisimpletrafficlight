@@ -13,14 +13,17 @@ $ sudo chmod 666 /dev/ttyUSB0
 ```
 **ttyUSB0** can replace with **ttyUSB1**, **ttyUSB2**,...
 
+Tips: to view list mote, you can type:
+```make motelist```
+
 ### Step 3. Create a folder simpletrafficlight in ~/contiki/examples and put all code within
 
-### Step 4. On Telosb 1 (master) upload blink-leds.c
+### Step 4. On Telosb 1 (master) upload master.c
 ```
-$ make TARGET=sky blink-leds.upload
+$ make TARGET=sky master.upload
 ```
-### Step 5. On Telosb 2 (slave) upload blink-leds-recv.c
+### Step 5. On Telosb 2 (slave) upload slave.c
 ```
-$ make TARGET=sky blink-leds-recv.upload
+$ make TARGET=sky slave.upload
 ```
 
