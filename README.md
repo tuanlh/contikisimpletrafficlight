@@ -27,3 +27,4 @@ $ make TARGET=sky master.upload
 $ make TARGET=sky slave.upload
 ```
 
+# Author: Le Hoang Tuan
